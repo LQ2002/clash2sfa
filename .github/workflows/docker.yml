@@ -28,7 +28,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: ghcr.io/xmdhs/clash2sfa
+          images: ghcr.io/LQ2002/ClashtoSing
       - name: Build and push
         uses: docker/build-push-action@v4
         with:
